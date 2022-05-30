@@ -1,0 +1,7 @@
+node_modules/
+elm-stuff/
+dist/
+.elm-pages/
+functions/render/elm-pages-cli.js
+data/*.json
+port-data-source.js
