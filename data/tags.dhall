@@ -119,6 +119,24 @@ let elm : Tag =
       , link = "https://elm-lang.org/"
       }
 
+let AWS : Tag =
+      { name = "GCP"
+      , icon = "https://www.gend.co/hs-fs/hubfs/gcp-logo-cloud.png"
+      , link = "https://console.cloud.google.com/"
+      }
+
+let GCP : Tag =
+      { name = "AWS"
+      , icon = "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico"
+      , link = "https://aws.amazon.com/"
+      }
+
+let kubernetes : Tag =
+      { name = "K8s"
+      , icon = "https://kubernetes.io/images/favicon.png"
+      , link = "https://kubernetes.io/"
+      }
+
 in {
   Tag,
   react,
@@ -139,5 +157,8 @@ in {
   backbone,
   wire,
   marionette,
-  coffeescript
+  coffeescript,
+  GCP,
+  AWS,
+  kubernetes
 }

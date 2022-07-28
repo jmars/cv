@@ -46,20 +46,26 @@ let cv : CV =
             { company = "Tesco"
             , years = [2021, 2022]
             , title = "Full Stack Engineer"
-            , description = "Tesco groceries site, microfrontend project. React and vanilla javascript."
-            , tags = [Tags.javascript, Tags.typescript, Tags.react, Tags.graphql, Tags.node]
+            , description = "Tesco groceries site, microfrontend project. React and vanilla javascript, also setting up build pipelines and CI using k8s working closely with the dedicated DevOps team."
+            , tags = [Tags.typescript, Tags.react, Tags.graphql, Tags.node, Tags.kubernetes, Tags.AWS]
+            },
+            { company = "Munii"
+            , years = [2020]
+            , title = "Frontend Lead"
+            , description = "Frontend Lead for a fintech startup in London, building out a banking frontend with a small team in react and managing CI and deployments to GCP with k8s."
+            , tags = [Tags.typescript, Tags.react, Tags.node, Tags.GCP, Tags.kubernetes]
             },
             { company = "Various"
             , years = [2020]
             , title = "Frontend Lead"
-            , description = "Own startup work (beaten to market by competitor with VC funding), then consulting work for a fintech startup in London."
+            , description = "Own startup work (beaten to market by competitor with VC funding). Using Figma, flutter and cloudflare workers along with typescript."
             , tags = [Tags.typescript, Tags.react, Tags.node]
             },
             { company = "News UK"
             , years = [2018, 2019, 2020]
             , title = "Frontend Developer"
-            , description = "GraphQL server to aggregate distributed services, The Times mobile app in react native, as the only react developer on that team."
-            , tags = [Tags.reactNative, Tags.react, Tags.javascript, Tags.typescript]
+            , description = "GraphQL server to aggregate distributed services using AWS lambda, The Times mobile app in react native, as the only react developer on that team."
+            , tags = [Tags.reactNative, Tags.react, Tags.javascript, Tags.typescript, Tags.AWS]
             },
             { company = "JustPark"
             , years = [2018]
